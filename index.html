@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&family=Inter&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section class="hero">
+            <h1 class="title">Password Generator</h1>
+            <p class="subtitle">Use our online generator to create prety much strong and safe passwords.</p>
+        </section>
+
+        <section class="box">
+            <div class="password">
+                <div class="text">
+                    <input type="text" name="password" id="password">
+                </div>
+                <div class="actions">
+                    <button id="copy-1">
+                        <img src="./images/copy.svg" width="40" alt="">
+                    </button>
+                    <button id="renew">
+                        <img src="./images/renew.svg" width="40" alt="">
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <input type="range" name="pswd-length" id="pswd-length" value="16" min="4" max="64"/>
+
+        <button id="copy-2">Copiar senha</button>
+    </main> 
+    <script src="./scripts/scriptPswd.js"></script>
+</body>
+</html>
