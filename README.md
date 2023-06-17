@@ -1,6 +1,6 @@
 # PasswordGenerator
 Project from Front End Master course, personaly customized.
-- Open [index.html](https://meiado.github.io/PasswordGenerator/) to start
+- Open [Landing Page](https://meiado.github.io/PasswordGenerator/) to start
 - Password is automatically generated from page opening
 - Use the Renew button to generate a new password
 - Use any of the Copy buttons to copy the current password to clipboard
