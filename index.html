@@ -32,11 +32,40 @@
                     </button>
                 </div>
             </div>
+            <div class="security-indicator">
+                <div id="security-indicator-bar" class="bar safe" style="width: 90%;"></div>
+            </div>
         </section>
 
-        <input type="range" name="pswd-length" id="pswd-length" value="16" min="4" max="64"/>
-
-        <button id="copy-2">Copiar senha</button>
+        <section class="box customize">
+            <h3 class="title">Customize</h3>
+            <div class="actions">
+                <div class="password-length">
+                    <p>Length: <span id="password-length-text">16</span></p>
+                    <input class="slider" type="range" name="pswd-length" id="pswd-length" value="16" min="8" max="64"/>
+                </div>
+                <div class="config">
+                    <label class="checkbox-container">
+                        <span class="text">Uppercase</span>
+                        <input type="checkbox" id="uppercase-check" checked>
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="checkbox-container">  
+                        <span class="text">Numbers</span>
+                        <input type="checkbox" id="numbers-check" checked>
+                        <span class="checkmark"></span>
+                    </label>  
+                    <label class="checkbox-container">
+                        <span class="text">Symbols</span>
+                        <input type="checkbox" id="symbols-check" checked>
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+            </div> 
+        </section>
+        <div class="submit">
+            <button id="copy-2">Copy password</button>
+        </div>
     </main> 
     <script src="./scripts/scriptPswd.js"></script>
 </body>
